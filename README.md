@@ -1,8 +1,37 @@
-# React + Vite
+# MacFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+MacFinder est une application web qui permet aux utilisateurs de rechercher des informations sur les appareils réseau en entrant leurs adresses MAC. Elle fournit des détails précis sur les fabricants et aide à identifier facilement les appareils réseau.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Recherche des détails sur les adresses MAC en utilisant une API externe.
+- Affichage des informations sur le fabricant et les détails de l'appareil.
+- Interface utilisateur conviviale avec recherche en temps réel.
+
+## Demo
+
+Check out the live demo at [Demo Link](https://your-demo-link.com).
+
+![Capture d'écran 2024-09-18 202421](https://github.com/user-attachments/assets/61cbc3f2-ab7f-427c-953f-c899985829be)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/MacFinder.git
+   
+2. Navigate into the project directory:
+   ```bash
+   cd MacFinder
+   Install the dependencies:
+   
+3. Install the dependencies:
+  ```bash
+  npm install
+  Run the development server:
+
+  ```bash
+  npm run dev
+Open your browser and go to http://localhost:3000.
