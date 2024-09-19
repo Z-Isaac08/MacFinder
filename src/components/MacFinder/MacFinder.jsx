@@ -11,7 +11,7 @@ const MacFinder = () => {
         setError('');
         setMacDetails(null); // Reset des détails avant chaque recherche
         try {
-            const response = await axios.get(`https://api.macaddress.io/v1?apiKey=at_2W3XLRxfs707SzWUdYte7ICuVVbT5&output=json&search=${macAddress}`);
+            const response = await axios.get(`${import.meta.env.VITE_API_URL}?apiKey=${import.meta.env.VITE_API_KEY}&output=json&search=${macAddress}`);
             setMacDetails(response.data); // Sauvegarder toutes les données
         } catch (err) {
             setError('Erreur lors de la récupération des données.');
