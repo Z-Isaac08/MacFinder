@@ -25,13 +25,13 @@ Check out the live demo at [Demo Link](https://your-demo-link.com).
 2. Navigate into the project directory:
    ```bash
    cd MacFinder
-   Install the dependencies:
    
 3. Install the dependencies:
   ```bash
   npm install
-  Run the development server:
 
+ 4. Run the development server:
   ```bash
   npm run dev
-Open your browser and go to http://localhost:3000.
+
+Open your browser and go to http://localhost:5173.
