@@ -30,7 +30,7 @@ const MacFinder = () => {
             >
                 Bienvenue sur MacFinder
             </h1>
-            <h1 className="text-lg sm:text-xl font-medium m-7 text-center">
+            <h1 className="text-lg sm:text-xl font-medium m-7 text-center text-gray-500">
                 Découvrez facilement le fabricant de votre carte réseau en entrant simplement l'adresse MAC. 
                 Notre outil rapide et intuitif vous fournit des détails précis sur les appareils réseau pour une identification instantanée.
             </h1>
